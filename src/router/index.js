@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AccountView from '../views/AccountView'
 import ContactsView from '../views/ContactsView'
+import ReviewsView from '../views/ReviewsView'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/contacts',
     name: 'contacts',
     component: ContactsView
+  },
+  {
+    path: '/review',
+    name: 'review',
+    component: ReviewsView
   },
 
 ]

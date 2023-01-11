@@ -4,11 +4,14 @@
       <router-link to="/home" class="header__link">
         <button class="header__button">Главная</button>
       </router-link>
-      <router-link to="/account" class="header__link">
-        <button class="header__button">Личный кабинет</button>
+      <router-link to="/review" class="header__link">
+        <button class="header__button">Отзывы</button>
       </router-link>
       <router-link to="/contacts" class="header__link">
         <button class="header__button">Контакты</button>
+      </router-link>
+      <router-link to="/account" class="header__link">
+        <button class="header__button">Личный кабинет</button>
       </router-link>
     </header>
   </div>

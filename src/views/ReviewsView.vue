@@ -1,22 +1,23 @@
 <template>
-  <v-main>
-    <router-view/>
-    <header-view/>
-    <cards-view/>
-    <footer-view/>
-  </v-main>
+  <div>
+    <v-main>
+      <header-view/>
+      <review-view/>
+      <footer-view/>
+    </v-main>
+  </div>
 </template>
 
 <script>
 
+import ReviewView from '@/components/ReviewView.vue';
 import HeaderView from "../components/HeaderView.vue";
-import CardsView from "./CardsView.vue";
 import FooterView from "@/components/FooterView.vue";
 
 export default {
   components: {
+    ReviewView,
     HeaderView,
-    CardsView,
     FooterView
   }
 }

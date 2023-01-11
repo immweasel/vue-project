@@ -6,6 +6,7 @@
       <home-view/>
       <CardsView/>
       <contacts-view/>
+      <!-- <reviews-view/> -->
     </v-main>
   </v-app>
 </template>
@@ -16,6 +17,7 @@ import HeaderView from "./components/HeaderView.vue";
 import HomeView from './views/HomeView.vue';
 import ContactsView from "./views/ContactsView.vue";
 import CardsView from "./views/CardsView.vue";
+// import ReviewsView from "./views/ReviewsView.vue";
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     HeaderView,
     HomeView,
     ContactsView,
-    CardsView
+    CardsView,
+    // ReviewsView
   }
 };
 
