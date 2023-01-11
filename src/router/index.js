@@ -14,7 +14,7 @@ const routes = [
     component: AccountView
   },
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: HomeView
   },
