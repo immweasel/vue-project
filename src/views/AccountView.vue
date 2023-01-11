@@ -1,24 +1,19 @@
 <template>
   <v-main>
-    <router-view/>
     <header-view/>
-    <cards-view/>
+    <my-account/>
   </v-main>
 </template>
 
 <script>
-
 import HeaderView from "../components/HeaderView.vue";
-import CardsView from "./CardsView.vue";
+import MyAccount from '../components/MyAccount.vue';
 
 export default {
+  name: 'AccountView',
   components: {
-    HeaderView,
-    CardsView
-  }
+    MyAccount,
+    HeaderView
+}
 }
 </script>
-
-<style>
-
-</style>
